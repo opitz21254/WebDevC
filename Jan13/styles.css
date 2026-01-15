@@ -1,0 +1,30 @@
+body {
+  font-family: "Merriweather", sans-serif;
+}
+
+#cat-section {
+  background-color: rgb(51, 114, 122);
+  color: rgb(35, 51, 56);
+  overflow: scroll;
+}
+
+#cat-section figure {
+  display: inline-block;
+  background-color: rgb(137, 192, 205);
+  border-radius: 10px;
+}
+
+#cat-section figure:hover {
+    transform: scale(1.30);
+    transition: all 0.33s;
+}
+
+#cat-section figcaption {
+  padding: 10px;
+}
+
+#cat-section img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 300px;
+}
